@@ -1,0 +1,35 @@
+.fondo{
+    color: black;
+}
+div p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.contenedor > div {
+    display: block;
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .23);
+}
+h1{
+    text-align: center;
+}
+.nav-item:hover{
+    background-color: rgb(241, 132, 58);
+}
+.redes{
+    list-style: none;
+    display: inline;
+}
+footer{
+    background-image: linear-gradient(to bottom, rgb(250, 250, 250) , rgb(241, 132, 58));
+}
